@@ -25,4 +25,5 @@ int main()
         cout<<endl;
         i++;
     }
+    return 0;
 }
