@@ -59,6 +59,6 @@ int main()
     cout<<"After clear size "<<v.size()<<endl;
     cout<<v.capacity()<<endl;
 
-   
+    return 0;
 
 }
