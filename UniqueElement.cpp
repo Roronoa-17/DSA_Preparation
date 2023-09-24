@@ -1,12 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void Unique_element(int *arr, int size)
+void Unique_element(vector<int> &a)
 {
     int ans = 0;
-    for(int i = 0 ; i < size; i++)
+    for(int i = 0 ; i < a.size(); i++)
     {
-        ans = ans ^ arr[i];
+        ans = ans ^ a[i];
     }
 
     cout<<ans<<endl;
@@ -15,9 +15,9 @@ void Unique_element(int *arr, int size)
 
 int main()
 {
-    int a[9] = {1, 1 ,2 ,3 ,5,4,3,2,4};
+    vector<int> a = {1, 1 ,2 ,3 ,5,4,3,2,4,5,10};
 
-    Unique_element(a, 9);
+    Unique_element(a);
 
     return 0;
 }
